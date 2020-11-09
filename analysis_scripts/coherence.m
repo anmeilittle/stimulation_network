@@ -26,4 +26,5 @@ parfor i = 1:203 % for all channels
             coherenceMat(i, j, k) = mean(mscohere(d2(i, target_inds(k,:)), d2(j, target_inds(k,:))));
         end
     end
+disp(num2str(i))
 end
